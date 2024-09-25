@@ -31,14 +31,14 @@ This project implements an ETL (Extract, Transform, Load) pipeline to process ra
 2. Install the required packages:
 
 
-      pip install -r requirements.txt
+         pip install -r requirements.txt
 
 ## Usage
 
 1. Prepare your raw data in the **/data** directory and name it **raw_data.csv.**
 2. Run the ETL process:
 
-      python src/etl.py
+         python src/etl.py
 
 
 ## Testing
@@ -46,7 +46,7 @@ This project implements an ETL (Extract, Transform, Load) pipeline to process ra
  Run the unit tests to ensure the ETL functions are working correctly:
 
 
-     python -m unittest discover -s tests
+        python -m unittest discover -s tests
 
 
 
